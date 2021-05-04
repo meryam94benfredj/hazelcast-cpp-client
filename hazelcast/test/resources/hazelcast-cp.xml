@@ -57,6 +57,10 @@
                         class-name="com.hazelcast.client.test.Derived1CustomSerializer"/>
             <serializer type-class="com.hazelcast.client.test.Derived2Custom"
                         class-name="com.hazelcast.client.test.Derived2CustomSerializer"/>
+            <serializer type-class="com.hazelcast.client.test.employee"
+                        class-name="com.hazelcast.client.test.employeeSerializer"/>
+            <serializer type-class="com.hazelcast.client.test.employee_raise_entry_processor"
+                        class-name="com.hazelcast.client.test.employee_raise_entry_processorSerializer"/>
         </serializers>
         <check-class-def-errors>true</check-class-def-errors>
     </serialization>
